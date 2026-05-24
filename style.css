@@ -1,0 +1,74 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#0f0f0f;
+  color:white;
+}
+
+header{
+  text-align:center;
+  padding:80px 20px;
+  background:black;
+}
+
+header h1{
+  color:gold;
+  font-size:40px;
+}
+
+header p{
+  font-size:18px;
+  margin-bottom:30px;
+}
+
+header a{
+  background:gold;
+  color:black;
+  padding:12px 25px;
+  text-decoration:none;
+  border-radius:8px;
+  font-weight:bold;
+}
+
+.services{
+  padding:40px 20px;
+}
+
+.services h2{
+  text-align:center;
+  color:gold;
+}
+
+.card{
+  background:#1a1a1a;
+  padding:20px;
+  margin:20px 0
+  header{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+header img{
+  border-radius:20px;
+  margin-bottom:20px;
+}
+
+header a{
+  transition:0.3s;
+}
+
+header a:hover{
+  background:white;
+  color:black;
+}
+
+.card{
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+}
